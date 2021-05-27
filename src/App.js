@@ -72,7 +72,7 @@ const [url,setUrl] = React.useState(`${API_ENDPOINT}${searchTerm}`)
     //      payload:result.hits,
     //    })
 //   //  })
-//   axios.get(url)
+//   axios.get(url)                                              //fetching data with 3rd party library called axios
 //   .then(result=>{
 //     dispatchStories({
 //         type:ACTIONTERMS.STORY_FETCH_SUCCESS,
