@@ -1,24 +1,7 @@
 import "./styles.css";
 import React from 'react';
 import axios from 'axios';
-// const initialStories =[                            //list declaring locally
-//   {
-//       title:"React",
-//       url:"https://reactjs.org/",
-//       author:"Jordan Walke",
-//       num_comments:3,
-//       points:4,
-//       objectID:0,
-//   },
-//   {
-//       title:"Redex",
-//       url:"https://readux.js.org/",
-//       author:"Dan Abramous,Andrew Clark",
-//       num_comments:2,
-//       points:5,
-//       objectID:1,
-//   }
-// ]
+
 const ACTIONTERMS ={
    STORY_FETCH_INIT:'STORY_FETCH_INIT',
    STORY_FETCH_SUCCESS:'STORY_FETCH_SUCCESS',
